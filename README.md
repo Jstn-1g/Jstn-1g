@@ -1,3 +1,5 @@
+<img align="right" width="190" src="./assets/justin-skowyra.jpg" alt="Illustrated portrait of Justin Skowyra">
+
 # Justin Skowyra
 
 ### Software Developer & AI Product Developer building evidence-first systems people can inspect, reproduce, and understand.
