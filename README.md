@@ -6,6 +6,16 @@ I'm the founder of [Eversko](https://eversko.com). I turn complex data and sourc
 
 ## Featured work
 
+### [Abode to Web](https://github.com/eversko/abode-to-web)
+
+Open-source, Windows-first release control for hosting, monitoring, and safely publishing sites from one machine.
+
+- Deploys exact Git commits into isolated release directories and activates them only after health checks pass.
+- Keeps known-good static releases available for rollback.
+- Provides a simple “Give this to your LLM” onboarding path with explicit assess, local-setup, and publish approvals.
+- Built with .NET, React, TypeScript, PowerShell, and GitHub Actions; released under Apache-2.0 by Eversko.
+
+[Source](https://github.com/eversko/abode-to-web) · [Documentation](https://github.com/eversko/abode-to-web/tree/main/docs) · [Contributing](https://github.com/eversko/abode-to-web/blob/main/CONTRIBUTING.md)
 ### [What in the Tax?](https://github.com/Jstn-1g/what-in-the-tax)
 
 An open-source, evidence-first property-tax explorer built from hash-locked official Ontario filings.
