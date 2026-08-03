@@ -16,6 +16,7 @@ Open-source, Windows-first release control for hosting, monitoring, and safely p
 - Built with .NET, React, TypeScript, PowerShell, and GitHub Actions; released under Apache-2.0 by Eversko.
 
 [Source](https://github.com/eversko/abode-to-web) · [Documentation](https://github.com/eversko/abode-to-web/tree/main/docs) · [Contributing](https://github.com/eversko/abode-to-web/blob/main/CONTRIBUTING.md)
+
 ### [What in the Tax?](https://github.com/Jstn-1g/what-in-the-tax)
 
 An open-source, evidence-first property-tax explorer built from hash-locked official Ontario filings.
@@ -27,6 +28,17 @@ An open-source, evidence-first property-tax explorer built from hash-locked offi
 - Status: the public explorer is live; six hand-built municipal receipts remain draft previews, not sealed publications.
 
 [Live product](https://whatinthetax.com) · [Source](https://github.com/Jstn-1g/what-in-the-tax) · [Contributing](https://github.com/Jstn-1g/what-in-the-tax/blob/main/CONTRIBUTING.md)
+
+### [IFL PvP MegaGuides](https://github.com/Jstn-1g/ifl-pvp-megaguides)
+
+An open-source guide platform that makes version context, source evidence, review dates, and publication status visible.
+
+- Preserves five established guide URLs as explicit, non-indexed evidence holds instead of publishing stale material.
+- Separates reusable public code and first-party presentation from the private editorial and media archive.
+- Gates releases on DCO, provenance, licensing, build and SEO checks, browser QA, accessibility, and CodeQL.
+- Built with Astro, TypeScript, and GitHub Actions; v0.2.0 ships as an immutable MIT release artifact.
+
+[Live product](https://iflpvp.com) · [Source](https://github.com/Jstn-1g/ifl-pvp-megaguides) · [Release v0.2.0](https://github.com/Jstn-1g/ifl-pvp-megaguides/releases/tag/v0.2.0) · [Contributing](https://github.com/Jstn-1g/ifl-pvp-megaguides/blob/main/CONTRIBUTING.md)
 
 ## Toolbox
 
