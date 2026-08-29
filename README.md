@@ -64,11 +64,11 @@ Agent systems · Desktop applications · Plugin architecture · Data pipelines �
 
 ## Open-source impact, with receipts
 
-**23 merged patches** · **10 independently maintained DSH projects** · **14 stable release credits plus 4 current prerelease credits** · **800+ GitHub contributions**
+**23 merged patches** · **10 independently maintained DSH projects** · **18 named stable release credits** · **800+ GitHub contributions**
 
 | Surface | Verified outcome |
 | --- | --- |
-| **DeepSeek Harness Desktop** | Nine authored pull requests merged. Eleven changes are named across [v0.9.0](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.0), [v0.9.2](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.2), and [v0.9.3-beta.1](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.3-beta.1), spanning desktop UX, package discovery, plugin integrity, release validation, Git update correctness, and process-exit reporting. |
+| **DeepSeek Harness Desktop** | Nine authored pull requests merged. Eleven changes are named across [v0.9.0](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.0), [v0.9.2](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.2), and [v0.9.3](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.3), spanning desktop UX, package discovery, plugin integrity, release validation, Git update correctness, and process-exit reporting. |
 | **DSH Market** | Six fixes merged and released across [v1.19.0](https://github.com/dsh-market/dsh-market/releases/tag/v1.19.0) and [v1.36.0](https://github.com/dsh-market/dsh-market/releases/tag/v1.36.0): safer installs and updates, Windows reliability, profile handling, and clearer marketplace behavior. |
 | **Broader ecosystem** | Upstream fixes landed in plugin tooling, memory, context compression, provider usage, subscriptions, and Desktop extensions. Every claim is linked in the [verified contribution ledger](CONTRIBUTIONS.md). |
 
