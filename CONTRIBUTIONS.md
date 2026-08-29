@@ -14,7 +14,7 @@ This ledger links primary evidence and uses conservative status labels:
 ## Snapshot
 
 - **23 authored pull requests merged across 10 independently maintained DSH repositories.**
-- **18 changes explicitly credit `@Jstn-1g` across six releases:** 14 across five non-prerelease releases, plus four in Desktop v0.9.3-beta.1.
+- **18 changes explicitly credit `@Jstn-1g` across six non-prerelease releases.**
 - **800+ GitHub contributions in the current profile year**, spanning commits, pull requests, issues, and reviews.
 - **DSH Live Voice v0.3.0-preview.1** is public, independently documented, and still accurately gated as a preview.
 
@@ -28,7 +28,7 @@ Nine authored pull requests are merged. Eleven changes are named in public relea
 | --- | --- | --- |
 | [v0.9.0](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.0) | Persistent zoom controls, mise-managed pnpm discovery, direct-pnpm repair binding, serialized zoom operations, and native macOS clipboard handling | [#148](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/148), [#156](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/156), [#159](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/159) |
 | [v0.9.2](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.2) | Official MinGit HTTPS-helper recognition and internal plugin-manifest validation | [#186](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/186), [#189](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/189) |
-| [v0.9.3-beta.1](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.3-beta.1) | Release-version identity validation, locked-revision cache invalidation, explicit Git update-target handling, and reporting unexpected owned Harness child exits while Desktop remains alive | [#193](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/193), [#200](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/200), [#206](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/206), [#213](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/213) |
+| [v0.9.3](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.3) | Release-version identity validation, locked-revision cache invalidation, explicit Git update-target handling, and reporting unexpected owned Harness child exits while Desktop remains alive | [#193](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/193), [#200](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/200), [#206](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/206), [#213](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/213) |
 
 ### DSH Market
 
