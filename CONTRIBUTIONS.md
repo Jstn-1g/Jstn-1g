@@ -13,8 +13,8 @@ This ledger links primary evidence and uses conservative status labels:
 
 ## Snapshot
 
-- **22 authored pull requests merged across 10 independently maintained DSH repositories.**
-- **14 changes explicitly credit `@Jstn-1g` across five non-prerelease releases:** five in Desktop v0.9.0, two in Desktop v0.9.2, three in DSH Market v1.19.0, three in DSH Market v1.36.0, and one in DSH Tauri Plugins v0.4.9.
+- **23 authored pull requests merged across 10 independently maintained DSH repositories.**
+- **18 changes explicitly credit `@Jstn-1g` across six releases:** 14 across five non-prerelease releases, plus four in Desktop v0.9.3-beta.1.
 - **800+ GitHub contributions in the current profile year**, spanning commits, pull requests, issues, and reviews.
 - **DSH Live Voice v0.3.0-preview.1** is public, independently documented, and still accurately gated as a preview.
 
@@ -22,18 +22,13 @@ This ledger links primary evidence and uses conservative status labels:
 
 ### DeepSeek Harness Desktop
 
-Eight authored pull requests are merged. Seven changes are already named in public release notes:
+Nine authored pull requests are merged. Eleven changes are named in public release notes:
 
 | Release | Credited work | Pull requests |
 | --- | --- | --- |
 | [v0.9.0](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.0) | Persistent zoom controls, mise-managed pnpm discovery, direct-pnpm repair binding, serialized zoom operations, and native macOS clipboard handling | [#148](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/148), [#156](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/156), [#159](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/159) |
 | [v0.9.2](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.2) | Official MinGit HTTPS-helper recognition and internal plugin-manifest validation | [#186](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/186), [#189](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/189) |
-
-Three additional fixes are merged into `main` after v0.9.2:
-
-- [#193](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/193) validates release version identity.
-- [#200](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/200) invalidates update caches when locked revisions change.
-- [#206](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/206) respects explicit Git update targets.
+| [v0.9.3-beta.1](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.3-beta.1) | Release-version identity validation, locked-revision cache invalidation, explicit Git update-target handling, and reporting unexpected owned Harness child exits while Desktop remains alive | [#193](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/193), [#200](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/200), [#206](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/206), [#213](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/213) |
 
 ### DSH Market
 
@@ -85,5 +80,6 @@ Credential-backed Qwen, physical microphone and speaker, BFCache, and packaged-D
 
 ## Under review
 
+- **DeepSeek Harness Desktop:** [#215](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/215) is open and narrowly fixes official-leaf recovery extraction. Frontend, macOS, Windows, pre-job, and CodeRabbit are green; Ubuntu is red on a documented pre-existing `ETXTBSY` shim-test flake.
 - **DSH Market:** [#406](https://github.com/dsh-market/dsh-market/pull/406), [#407](https://github.com/dsh-market/dsh-market/pull/407), and [#408](https://github.com/dsh-market/dsh-market/pull/408) are open and passing all six checks at this snapshot.
 - **Curated DSH Live Voice listing:** [awesome-dsh-plugin #3633](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3633) is open, cleanly mergeable, and passing both submission checks at this snapshot.
