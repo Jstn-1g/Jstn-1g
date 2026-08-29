@@ -15,7 +15,7 @@ This ledger links primary evidence and uses conservative status labels:
 
 - **22 authored pull requests merged across 10 independently maintained DSH repositories.**
 - **14 changes explicitly credit `@Jstn-1g` across five non-prerelease releases:** five in Desktop v0.9.0, two in Desktop v0.9.2, three in DSH Market v1.19.0, three in DSH Market v1.36.0, and one in DSH Tauri Plugins v0.4.9.
-- **809 GitHub contributions in the current profile year.** Public activity includes 313 commit contributions, 143 pull-request contributions, 21 issue contributions, and 17 reviews.
+- **800+ GitHub contributions in the current profile year**, spanning commits, pull requests, issues, and reviews.
 - **DSH Live Voice v0.3.0-preview.1** is public, independently documented, and still accurately gated as a preview.
 
 ## Shipped work
