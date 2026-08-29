@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Justin Skowyra — AI systems and developer tools</title>
+  <desc id="desc">Dark navy profile banner with cyan, violet, and green accents, an abstract agent network, and the words evidence first.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06101e"/>
+      <stop offset="0.55" stop-color="#0a1830"/>
+      <stop offset="1" stop-color="#10152d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="0.52" stop-color="#06b6d4"/>
+      <stop offset="1" stop-color="#22c55e"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="50%" cy="45%" r="60%">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.28"/>
+      <stop offset="0.55" stop-color="#7c3aed" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#07111f" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#7dd3fc" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+  <path d="M0 318C188 282 314 348 488 318S804 239 1200 286V360H0Z" fill="#06b6d4" opacity="0.035"/>
+  <rect x="0" y="0" width="8" height="360" rx="4" fill="url(#accent)"/>
+
+  <g font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <g transform="translate(70 56)">
+      <circle cx="7" cy="7" r="7" fill="#22c55e"/>
+      <text x="26" y="13" fill="#9be8f7" font-size="16" font-weight="700" letter-spacing="2.5">BUILDING RELIABLE AGENT SYSTEMS</text>
+    </g>
+    <text x="68" y="151" fill="#f8fafc" font-size="62" font-weight="780" letter-spacing="-2.2">Justin Skowyra</text>
+    <text x="70" y="198" fill="#bfd0e5" font-size="24" font-weight="450">AI products · developer tools · reproducible systems</text>
+    <rect x="70" y="231" width="432" height="2" rx="1" fill="url(#accent)"/>
+
+    <g transform="translate(70 263)" font-size="14" font-weight="700" letter-spacing="1.1">
+      <rect width="126" height="38" rx="19" fill="#111f38" stroke="#7c3aed" stroke-opacity="0.7"/>
+      <text x="63" y="24" text-anchor="middle" fill="#ddd6fe">AI PRODUCTS</text>
+      <rect x="139" width="154" height="38" rx="19" fill="#0d2434" stroke="#06b6d4" stroke-opacity="0.75"/>
+      <text x="216" y="24" text-anchor="middle" fill="#a5f3fc">DEV TOOLS</text>
+      <rect x="306" width="146" height="38" rx="19" fill="#10251f" stroke="#22c55e" stroke-opacity="0.7"/>
+      <text x="379" y="24" text-anchor="middle" fill="#bbf7d0">OPEN SOURCE</text>
+    </g>
+  </g>
+
+  <g transform="translate(790 16)">
+    <circle cx="190" cy="164" r="176" fill="url(#orb)"/>
+    <circle cx="190" cy="164" r="106" fill="#0b1730" stroke="url(#accent)" stroke-width="2"/>
+    <circle cx="190" cy="164" r="86" fill="#0c1a31" stroke="#67e8f9" stroke-opacity="0.3"/>
+    <text x="190" y="153" text-anchor="middle" fill="#f8fafc" font-family="Inter, ui-sans-serif, sans-serif" font-size="62" font-weight="800" letter-spacing="-3">JS</text>
+    <text x="190" y="188" text-anchor="middle" fill="#67e8f9" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700" letter-spacing="2.2">EVIDENCE FIRST</text>
+
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M98 94L50 54M284 89l52-38M92 234l-48 35M289 237l48 35" stroke="#7dd3fc" stroke-opacity="0.35" stroke-width="2"/>
+      <path d="M50 54H19M336 51h31M44 269H12M337 272h34" stroke="#7dd3fc" stroke-opacity="0.18"/>
+    </g>
+
+    <g filter="url(#glow)">
+      <circle cx="50" cy="54" r="9" fill="#7c3aed"/>
+      <circle cx="336" cy="51" r="9" fill="#06b6d4"/>
+      <circle cx="44" cy="269" r="9" fill="#22c55e"/>
+      <circle cx="337" cy="272" r="9" fill="#8b5cf6"/>
+    </g>
+
+    <g transform="translate(14 104)" stroke="#c4b5fd" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 5L7 16l11 11M30 5l11 11-11 11"/>
+    </g>
+    <g transform="translate(345 105)" stroke="#a5f3fc" stroke-width="3" fill="none" stroke-linecap="round">
+      <path d="M0 19h6l4-13 7 26 7-22 5 16 5-7h8"/>
+    </g>
+    <g transform="translate(11 181)" stroke="#bbf7d0" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 3l17 6v13c0 12-7 20-17 25C12 42 5 34 5 22V9Z"/>
+      <path d="M14 24l6 6 11-14"/>
+    </g>
+  </g>
+
+  <rect x="0.75" y="0.75" width="1198.5" height="358.5" rx="23.25" fill="none" stroke="#7dd3fc" stroke-opacity="0.12" stroke-width="1.5"/>
+</svg>

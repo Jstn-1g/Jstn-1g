@@ -1,0 +1,4 @@
+* text=auto
+*.jsonc text eol=lf
+*.md text eol=lf
+*.svg text eol=lf
