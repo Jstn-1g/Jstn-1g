@@ -13,7 +13,7 @@ This ledger links primary evidence and uses conservative status labels:
 
 ## Snapshot
 
-- **34 authored pull requests merged across 11 independently maintained DSH repositories:** 32 engineering patches across 10 code repositories and two accepted catalog updates.
+- **35 authored pull requests merged across 11 independently maintained DSH repositories:** 33 engineering patches across 10 code repositories and two accepted catalog updates.
 - **25 changes explicitly credit `@Jstn-1g` across eight stable releases, plus two credits in one prerelease.**
 - **800+ GitHub contributions in the current profile year**, spanning commits, pull requests, issues, and reviews.
 - **DSH Live Voice v0.3.0-preview.1** is public, independently documented, accepted into the curated ecosystem catalog, and still accurately gated as a preview.
@@ -57,6 +57,7 @@ Thirteen authored fixes are merged and explicitly credited in stable releases:
 | dsh-memory-evolve | [#26](https://github.com/csyangwen/dsh-memory-evolve/pull/26) | Synchronized review tools with the runtime toggle. |
 | dsh-plugin-subscriptions | [#31](https://github.com/V1ki/dsh-plugin-subscriptions/pull/31) | Bounded replayed Codex tool-call IDs. |
 | dsh-plugins-store | [#4](https://github.com/ZASENJC/dsh-plugins-store/pull/4) | Retained recognized plugins during pending reclassification. |
+| DSH Tauri Plugins | [#27](https://github.com/dsh-tauri-desk/dsh-tauri-plugins/pull/27) | Authenticated all 29 direct plugin routes against the current DSH alpha host contract. |
 
 ## Original systems and downstream adoption
 
@@ -85,5 +86,5 @@ Credential-backed Qwen, physical microphone and speaker, BFCache, and packaged-D
 ## Under review
 
 - **DSH Market:** [#434](https://github.com/dsh-market/dsh-market/pull/434) makes post-update rollback source-exact. It is cleanly mergeable and all six public checks pass.
-- **DSH Tauri Plugins:** [#26](https://github.com/dsh-tauri-desk/dsh-tauri-plugins/pull/26) fails closed permanent session deletion, while [#27](https://github.com/dsh-tauri-desk/dsh-tauri-plugins/pull/27) authenticates all 29 direct plugin routes against the current DSH alpha host contract. Both are cleanly mergeable and all eight public checks pass; an exact security diff review of #27 found no reportable vulnerability.
+- **DSH Tauri Plugins:** [#26](https://github.com/dsh-tauri-desk/dsh-tauri-plugins/pull/26) fails closed permanent session deletion. It is cleanly mergeable and all eight public checks pass.
 - **DSH TUI plugin:** [#2](https://github.com/JimLuan/dsh-tui-plugin/pull/2) hardens compatibility with DSH v0.1.2 alpha. It is cleanly mergeable and awaits upstream review and release ownership.

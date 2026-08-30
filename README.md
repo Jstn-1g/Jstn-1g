@@ -64,13 +64,13 @@ Agent systems · Desktop applications · Plugin architecture · Data pipelines �
 
 ## Open-source impact, with receipts
 
-**34 merged external pull requests** · **11 independently maintained DSH repositories** · **25 named stable release credits + 2 prerelease credits** · **800+ GitHub contributions**
+**35 merged external pull requests** · **11 independently maintained DSH repositories** · **25 named stable release credits + 2 prerelease credits** · **800+ GitHub contributions**
 
 | Surface | Verified outcome |
 | --- | --- |
 | **DeepSeek Harness Desktop** | Eleven authored pull requests merged. Thirteen changes are named across [v0.9.0](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.0), [v0.9.2](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.2), [v0.9.3](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.3), and [v0.9.5-beta.2](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.5-beta.2), spanning desktop UX, package discovery, plugin integrity, release validation, Git update correctness, recovery, runtime compatibility, and process-exit reporting. |
 | **DSH Market** | Thirteen authored fixes are named across [v1.19.0](https://github.com/dsh-market/dsh-market/releases/tag/v1.19.0), [v1.36.0](https://github.com/dsh-market/dsh-market/releases/tag/v1.36.0), [v1.37.0](https://github.com/dsh-market/dsh-market/releases/tag/v1.37.0), and [v1.38.0](https://github.com/dsh-market/dsh-market/releases/tag/v1.38.0): safer installs and rollback, Windows reliability, profile handling, Desktop diagnostics, subpath correctness, and real alpha Web E2E coverage. |
-| **Broader ecosystem** | Ten additional pull requests merged across nine independent plugin and catalog repositories, covering memory, context compression, provider usage, subscriptions, Desktop extensions, edit integrity, and DSH Live Voice discovery. Every claim is linked in the [verified contribution ledger](CONTRIBUTIONS.md). |
+| **Broader ecosystem** | Eleven additional pull requests merged across nine independent plugin and catalog repositories, covering memory, context compression, provider usage, subscriptions, Desktop extensions, host authentication, edit integrity, and DSH Live Voice discovery. Every claim is linked in the [verified contribution ledger](CONTRIBUTIONS.md). |
 
 ## Engineering signature
 
