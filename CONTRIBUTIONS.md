@@ -16,7 +16,7 @@ This ledger links primary evidence and uses conservative status labels:
 - **35 authored pull requests merged across 11 independently maintained DSH repositories:** 33 engineering patches across 10 code repositories and two accepted catalog updates.
 - **25 changes explicitly credit `@Jstn-1g` across eight stable releases, plus two credits in one prerelease.**
 - **800+ GitHub contributions in the current profile year**, spanning commits, pull requests, issues, and reviews.
-- **DSH Live Voice** is public, independently documented, and accepted into the curated ecosystem catalog. Its current release is **v0.3.0-preview.4**; the catalog's [Preview.4 artifact-pointer update is under review](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3885).
+- **DSH Live Voice** is public, independently documented, and accepted into the curated ecosystem catalog. Its current release is **v0.3.0-preview.5**; the catalog's [Preview.5 artifact and description update is under review](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3885).
 
 ## Shipped work
 
@@ -63,16 +63,17 @@ Thirteen authored fixes are merged and explicitly credited in stable releases:
 
 ### DSH Live Voice
 
-[DSH Live Voice v0.3.0-preview.4](https://github.com/Jstn-1g/dsh-live-voice/releases/tag/v0.3.0-preview.4) provides an exact-session, consent-bound manual Qwen audio turn. Its immutable-release verification records 27 test files and 241 passing tests, typechecks, builds, package lint, a maintainer-run disposable official-CLI Web composition with synthetic audio and a fake provider, and exact alpha.1/alpha.2 authentication smokes.
+[DSH Live Voice v0.3.0-preview.5](https://github.com/Jstn-1g/dsh-live-voice/releases/tag/v0.3.0-preview.5) provides an exact-session, consent-bound one-turn voice experience with a credential-free local synthetic demo, an optional Qwen Audio path, and explicit transcript-to-draft handoff without automatic submission. Its immutable-release verification records 30 test files and 263 passing tests, typechecks, builds, package lint, protected Node 22.19/current-24 CI, and a sanitized exact-alpha.2 synthetic receipt bound to the release commit and tarball.
 
 The preview was:
 
 - announced in the official Harness repository's [Show Your Plugins discussion #4958](https://github.com/deepseek-ai/deepseek-harness/discussions/4958);
-- accepted into the curated ecosystem catalog through [awesome-dsh-plugin PR #3633](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3633), then updated through merged [PR #3747](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3747);
+- accepted into the curated ecosystem catalog through [awesome-dsh-plugin PR #3633](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3633), then updated through merged [PR #3747](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3747), with the [Preview.5 pointer and description update](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3885) under review;
 - independently included in the [DeepSeek Harness Handbook v0.5.396](https://github.com/sandbaseai/deepseek-harness-handbook/releases/tag/v0.5.396), with its consent and preview boundaries preserved;
-- kept explicitly labeled as a preview with its open validation gates visible.
+- kept explicitly labeled as a preview with its open validation gates visible; and
+- opened a bounded [five-person Windows Chrome/Edge founding-tester cohort](https://github.com/Jstn-1g/dsh-live-voice/issues/58) that requests sanitized stopping-point evidence rather than recordings or credentials.
 
-Maintainer-run served-Web BFCache evidence exists for the exact rc.2 and Preview.3/alpha.1 paths. Credential-backed Qwen, physical microphone and speaker, Preview.4/alpha.2 BFCache, independent reproduction, and packaged-Desktop validation remain open in [release gate #5](https://github.com/Jstn-1g/dsh-live-voice/issues/5). No stable, marketplace-accepted, or production-ready claim is made.
+Preview.5 proves only its fixed local synthetic path on the authenticated localhost DSH Web carrier. Maintainer-run served-Web BFCache evidence remains bound to older exact artifacts. Credential-backed Qwen, a live provider, physical microphone and speaker, Preview.5 BFCache, independent reproduction, and packaged-Desktop validation remain open in [release gate #5](https://github.com/Jstn-1g/dsh-live-voice/issues/5). Downloads, clones, listings, CI, and maintainer runs are not counted as users; no stable, marketplace-accepted, production-ready, official-inclusion, or endorsement claim is made.
 
 ### Guarded HCL integration and review
 
