@@ -15,14 +15,14 @@ Founder of [Eversko](https://github.com/eversko). I turn real failure reports in
 <p align="center">
   <a href="https://eversko.com"><img alt="Eversko" src="https://img.shields.io/badge/Eversko-111827?style=for-the-badge&amp;logo=cloudflare&amp;logoColor=F38020"></a>
   <a href="https://www.linkedin.com/in/justin-skowyra/"><img alt="LinkedIn" title="LinkedIn" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/linkedin/linkedin-original.svg"></a>
-  <a href="https://github.com/Jstn-1g/dsh-live-voice/releases/tag/v0.3.0-preview.1"><img alt="DSH Live Voice" src="https://img.shields.io/badge/DSH_Live_Voice-111827?style=for-the-badge&amp;logo=github&amp;logoColor=white"></a>
+  <a href="https://github.com/Jstn-1g/dsh-live-voice/releases/tag/v0.3.0-preview.4"><img alt="DSH Live Voice" src="https://img.shields.io/badge/DSH_Live_Voice-111827?style=for-the-badge&amp;logo=github&amp;logoColor=white"></a>
 </p>
 
 ## Current work
 
 | Project | Relationship | Stack and current outcome |
 | --- | --- | --- |
-| [![DSH Live Voice](https://img.shields.io/badge/DSH_Live_Voice-111827?style=flat-square&logo=typescript&logoColor=3178C6)](https://github.com/Jstn-1g/dsh-live-voice) | Maintainer | TypeScript · React · Node.js. Experimental public preview with 191 passing tests and explicit hardware and credential gates. |
+| [![DSH Live Voice](https://img.shields.io/badge/DSH_Live_Voice-111827?style=flat-square&logo=typescript&logoColor=3178C6)](https://github.com/Jstn-1g/dsh-live-voice) | Maintainer | TypeScript · React · Node.js. Experimental Preview.4; 27 test files / 241 tests passed on the immutable release commit, with explicit hardware and credential gates. |
 | [![DeepSeek Harness Desktop](https://img.shields.io/badge/DeepSeek_Harness_Desktop-111827?style=flat-square&logo=tauri&logoColor=24C8DB)](https://github.com/dsh-tauri-desk/deepseek-harness-desktop) | Upstream contributor | Rust · Tauri · React. Eleven authored pull requests merged; thirteen changes named across four official releases. |
 | [![DSH Market](https://img.shields.io/badge/DSH_Market-111827?style=flat-square&logo=typescript&logoColor=3178C6)](https://github.com/dsh-market/dsh-market) | Upstream contributor | TypeScript · React. Thirteen authored fixes shipped across four stable releases. |
 | [![Guarded HCL](https://img.shields.io/badge/Guarded_HCL-111827?style=flat-square&logo=nodedotjs&logoColor=5FA04E)](https://github.com/Jstn-1g/dsh-guarded-hcl) | Maintainer | JavaScript · Node.js · AJV. Pre-activation regression gates with a merged external specification integration. |
@@ -56,11 +56,11 @@ Agent systems · Desktop applications · Plugin architecture · Data pipelines �
 
 [DSH Live Voice](https://github.com/Jstn-1g/dsh-live-voice) is a consent-first voice add-on for DeepSeek Harness: an exact-session, bounded manual Qwen audio turn with explicit recording, transcript-promotion, and teardown boundaries.
 
-**Experimental public preview** · **191 tests passing** · **official DSH CLI install verified** · **accepted into the curated ecosystem catalog**
+**Experimental Preview.4** · **27 test files / 241 tests on the immutable release commit** · **maintainer-run disposable official-CLI fake-provider composition passed** · **project accepted into the curated ecosystem catalog; Preview.4 pointer under review**
 
-[Preview release](https://github.com/Jstn-1g/dsh-live-voice/releases/tag/v0.3.0-preview.1) · [Curated catalog listing](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3633) · [Harness community launch](https://github.com/deepseek-ai/deepseek-harness/discussions/4958) · [Independent handbook inclusion](https://github.com/sandbaseai/deepseek-harness-handbook/releases/tag/v0.5.396) · [Open safety gates](https://github.com/Jstn-1g/dsh-live-voice/issues/5)
+[Preview release](https://github.com/Jstn-1g/dsh-live-voice/releases/tag/v0.3.0-preview.4) · [Accepted catalog listing](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3633) · [Preview.4 pointer update under review](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3885) · [Harness community launch](https://github.com/deepseek-ai/deepseek-harness/discussions/4958) · [Independent handbook inclusion](https://github.com/sandbaseai/deepseek-harness-handbook/releases/tag/v0.5.396) · [Open safety gates](https://github.com/Jstn-1g/dsh-live-voice/issues/5)
 
-> The preview label is deliberate. Credential-backed Qwen, physical-device, BFCache, and packaged-Desktop validation remain open release gates.
+> The preview label is deliberate. Maintainer-run served-Web BFCache evidence exists for the exact rc.2 and Preview.3/alpha.1 paths. Credential-backed Qwen, physical-device validation, Preview.4/alpha.2 BFCache, independent reproduction, and packaged-Desktop validation remain open release gates.
 
 ## Open-source impact, with receipts
 
