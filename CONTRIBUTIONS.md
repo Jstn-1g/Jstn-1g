@@ -16,7 +16,7 @@ This ledger links primary evidence and uses conservative status labels:
 - **35 authored pull requests merged across 11 independently maintained DSH repositories:** 33 engineering patches across 10 code repositories and two accepted catalog updates.
 - **25 changes explicitly credit `@Jstn-1g` across eight stable releases, plus two credits in one prerelease.**
 - **800+ GitHub contributions in the current profile year**, spanning commits, pull requests, issues, and reviews.
-- **DSH Live Voice v0.3.0-preview.1** is public, independently documented, accepted into the curated ecosystem catalog, and still accurately gated as a preview.
+- **DSH Live Voice** is public, independently documented, and accepted into the curated ecosystem catalog. Its current release is **v0.3.0-preview.4**; the catalog's [Preview.4 artifact-pointer update is under review](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3885).
 
 ## Shipped work
 
@@ -63,7 +63,7 @@ Thirteen authored fixes are merged and explicitly credited in stable releases:
 
 ### DSH Live Voice
 
-[DSH Live Voice v0.3.0-preview.1](https://github.com/Jstn-1g/dsh-live-voice/releases/tag/v0.3.0-preview.1) provides an exact-session, consent-bound manual Qwen audio turn. Its public verification records 20 test files and 191 passing tests, typechecks, builds, package lint, packed Harness fake-Qwen verification, and controlled Chrome teardown verification.
+[DSH Live Voice v0.3.0-preview.4](https://github.com/Jstn-1g/dsh-live-voice/releases/tag/v0.3.0-preview.4) provides an exact-session, consent-bound manual Qwen audio turn. Its immutable-release verification records 27 test files and 241 passing tests, typechecks, builds, package lint, a maintainer-run disposable official-CLI Web composition with synthetic audio and a fake provider, and exact alpha.1/alpha.2 authentication smokes.
 
 The preview was:
 
@@ -72,7 +72,7 @@ The preview was:
 - independently included in the [DeepSeek Harness Handbook v0.5.396](https://github.com/sandbaseai/deepseek-harness-handbook/releases/tag/v0.5.396), with its consent and preview boundaries preserved;
 - kept explicitly labeled as a preview with its open validation gates visible.
 
-Credential-backed Qwen, physical microphone and speaker, BFCache, and packaged-Desktop validation remain open in [release gate #5](https://github.com/Jstn-1g/dsh-live-voice/issues/5). No stable, marketplace-accepted, or production-ready claim is made.
+Maintainer-run served-Web BFCache evidence exists for the exact rc.2 and Preview.3/alpha.1 paths. Credential-backed Qwen, physical microphone and speaker, Preview.4/alpha.2 BFCache, independent reproduction, and packaged-Desktop validation remain open in [release gate #5](https://github.com/Jstn-1g/dsh-live-voice/issues/5). No stable, marketplace-accepted, or production-ready claim is made.
 
 ### Guarded HCL integration and review
 
