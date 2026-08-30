@@ -23,8 +23,8 @@ Founder of [Eversko](https://github.com/eversko). I turn real failure reports in
 | Project | Relationship | Stack and current outcome |
 | --- | --- | --- |
 | [![DSH Live Voice](https://img.shields.io/badge/DSH_Live_Voice-111827?style=flat-square&logo=typescript&logoColor=3178C6)](https://github.com/Jstn-1g/dsh-live-voice) | Maintainer | TypeScript · React · Node.js. Experimental public preview with 191 passing tests and explicit hardware and credential gates. |
-| [![DeepSeek Harness Desktop](https://img.shields.io/badge/DeepSeek_Harness_Desktop-111827?style=flat-square&logo=tauri&logoColor=24C8DB)](https://github.com/dsh-tauri-desk/deepseek-harness-desktop) | Upstream contributor | Rust · Tauri · React. Nine authored pull requests merged; eleven changes named across three official releases. |
-| [![DSH Market](https://img.shields.io/badge/DSH_Market-111827?style=flat-square&logo=typescript&logoColor=3178C6)](https://github.com/dsh-market/dsh-market) | Upstream contributor | TypeScript · React. Six authored fixes shipped across two stable releases. |
+| [![DeepSeek Harness Desktop](https://img.shields.io/badge/DeepSeek_Harness_Desktop-111827?style=flat-square&logo=tauri&logoColor=24C8DB)](https://github.com/dsh-tauri-desk/deepseek-harness-desktop) | Upstream contributor | Rust · Tauri · React. Eleven authored pull requests merged; thirteen changes named across four official releases. |
+| [![DSH Market](https://img.shields.io/badge/DSH_Market-111827?style=flat-square&logo=typescript&logoColor=3178C6)](https://github.com/dsh-market/dsh-market) | Upstream contributor | TypeScript · React. Thirteen authored fixes shipped across four stable releases. |
 | [![Guarded HCL](https://img.shields.io/badge/Guarded_HCL-111827?style=flat-square&logo=nodedotjs&logoColor=5FA04E)](https://github.com/Jstn-1g/dsh-guarded-hcl) | Maintainer | JavaScript · Node.js · AJV. Pre-activation regression gates with a merged external specification integration. |
 | [![What in the Tax](https://img.shields.io/badge/What_in_the_Tax-111827?style=flat-square&logo=python&logoColor=3776AB)](https://github.com/Jstn-1g/what-in-the-tax) | Maintainer | Python · TypeScript · React · Cloudflare. Evidence-first Ontario property-tax data product. |
 | [![Abode to Web](https://img.shields.io/badge/Abode_to_Web-111827?style=flat-square&logo=dotnet&logoColor=512BD4)](https://github.com/eversko/abode-to-web) | Eversko project | C# · .NET · PowerShell. Windows-first, health-gated Git releases for a single-machine workflow. |
@@ -56,21 +56,21 @@ Agent systems · Desktop applications · Plugin architecture · Data pipelines �
 
 [DSH Live Voice](https://github.com/Jstn-1g/dsh-live-voice) is a consent-first voice add-on for DeepSeek Harness: an exact-session, bounded manual Qwen audio turn with explicit recording, transcript-promotion, and teardown boundaries.
 
-**Experimental public preview** · **191 tests passing** · **official DSH CLI install verified** · **independently included in the ecosystem handbook**
+**Experimental public preview** · **191 tests passing** · **official DSH CLI install verified** · **accepted into the curated ecosystem catalog**
 
-[Preview release](https://github.com/Jstn-1g/dsh-live-voice/releases/tag/v0.3.0-preview.1) · [Harness community launch](https://github.com/deepseek-ai/deepseek-harness/discussions/4958) · [Independent handbook inclusion](https://github.com/sandbaseai/deepseek-harness-handbook/releases/tag/v0.5.396) · [Open safety gates](https://github.com/Jstn-1g/dsh-live-voice/issues/5)
+[Preview release](https://github.com/Jstn-1g/dsh-live-voice/releases/tag/v0.3.0-preview.1) · [Curated catalog listing](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3633) · [Harness community launch](https://github.com/deepseek-ai/deepseek-harness/discussions/4958) · [Independent handbook inclusion](https://github.com/sandbaseai/deepseek-harness-handbook/releases/tag/v0.5.396) · [Open safety gates](https://github.com/Jstn-1g/dsh-live-voice/issues/5)
 
 > The preview label is deliberate. Credential-backed Qwen, physical-device, BFCache, and packaged-Desktop validation remain open release gates.
 
 ## Open-source impact, with receipts
 
-**23 merged patches** · **10 independently maintained DSH projects** · **18 named stable release credits** · **800+ GitHub contributions**
+**34 merged external pull requests** · **11 independently maintained DSH repositories** · **25 named stable release credits + 2 prerelease credits** · **800+ GitHub contributions**
 
 | Surface | Verified outcome |
 | --- | --- |
-| **DeepSeek Harness Desktop** | Nine authored pull requests merged. Eleven changes are named across [v0.9.0](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.0), [v0.9.2](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.2), and [v0.9.3](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.3), spanning desktop UX, package discovery, plugin integrity, release validation, Git update correctness, and process-exit reporting. |
-| **DSH Market** | Six fixes merged and released across [v1.19.0](https://github.com/dsh-market/dsh-market/releases/tag/v1.19.0) and [v1.36.0](https://github.com/dsh-market/dsh-market/releases/tag/v1.36.0): safer installs and updates, Windows reliability, profile handling, and clearer marketplace behavior. |
-| **Broader ecosystem** | Upstream fixes landed in plugin tooling, memory, context compression, provider usage, subscriptions, and Desktop extensions. Every claim is linked in the [verified contribution ledger](CONTRIBUTIONS.md). |
+| **DeepSeek Harness Desktop** | Eleven authored pull requests merged. Thirteen changes are named across [v0.9.0](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.0), [v0.9.2](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.2), [v0.9.3](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.3), and [v0.9.5-beta.2](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.5-beta.2), spanning desktop UX, package discovery, plugin integrity, release validation, Git update correctness, recovery, runtime compatibility, and process-exit reporting. |
+| **DSH Market** | Thirteen authored fixes are named across [v1.19.0](https://github.com/dsh-market/dsh-market/releases/tag/v1.19.0), [v1.36.0](https://github.com/dsh-market/dsh-market/releases/tag/v1.36.0), [v1.37.0](https://github.com/dsh-market/dsh-market/releases/tag/v1.37.0), and [v1.38.0](https://github.com/dsh-market/dsh-market/releases/tag/v1.38.0): safer installs and rollback, Windows reliability, profile handling, Desktop diagnostics, subpath correctness, and real alpha Web E2E coverage. |
+| **Broader ecosystem** | Ten additional pull requests merged across nine independent plugin and catalog repositories, covering memory, context compression, provider usage, subscriptions, Desktop extensions, edit integrity, and DSH Live Voice discovery. Every claim is linked in the [verified contribution ledger](CONTRIBUTIONS.md). |
 
 ## Engineering signature
 
@@ -89,4 +89,4 @@ The full [contribution ledger](CONTRIBUTIONS.md) links primary release notes, me
 
 I am open to collaborations around reliable AI products, agent infrastructure, developer experience, and evidence-first public data. Start with [Eversko](https://eversko.com), connect on [LinkedIn](https://www.linkedin.com/in/justin-skowyra/), or email [info@eversko.com](mailto:info@eversko.com).
 
-<sub>Profile facts last verified 2026-08-29. Preview and review statuses may change; the linked receipts are authoritative.</sub>
+<sub>Profile facts last verified 2026-08-30. Preview and review statuses may change; the linked receipts are authoritative.</sub>

@@ -1,6 +1,6 @@
 # Verified open-source contribution record
 
-Last verified: 2026-08-29.
+Last verified: 2026-08-30.
 
 This ledger links primary evidence and uses conservative status labels:
 
@@ -13,31 +13,34 @@ This ledger links primary evidence and uses conservative status labels:
 
 ## Snapshot
 
-- **23 authored pull requests merged across 10 independently maintained DSH repositories.**
-- **18 changes explicitly credit `@Jstn-1g` across six non-prerelease releases.**
+- **34 authored pull requests merged across 11 independently maintained DSH repositories:** 32 engineering patches across 10 code repositories and two accepted catalog updates.
+- **25 changes explicitly credit `@Jstn-1g` across eight stable releases, plus two credits in one prerelease.**
 - **800+ GitHub contributions in the current profile year**, spanning commits, pull requests, issues, and reviews.
-- **DSH Live Voice v0.3.0-preview.1** is public, independently documented, and still accurately gated as a preview.
+- **DSH Live Voice v0.3.0-preview.1** is public, independently documented, accepted into the curated ecosystem catalog, and still accurately gated as a preview.
 
 ## Shipped work
 
 ### DeepSeek Harness Desktop
 
-Nine authored pull requests are merged. Eleven changes are named in public release notes:
+Eleven authored pull requests are merged. Eleven changes are named in stable release notes and two more in a prerelease:
 
 | Release | Credited work | Pull requests |
 | --- | --- | --- |
 | [v0.9.0](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.0) | Persistent zoom controls, mise-managed pnpm discovery, direct-pnpm repair binding, serialized zoom operations, and native macOS clipboard handling | [#148](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/148), [#156](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/156), [#159](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/159) |
 | [v0.9.2](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.2) | Official MinGit HTTPS-helper recognition and internal plugin-manifest validation | [#186](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/186), [#189](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/189) |
 | [v0.9.3](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.3) | Release-version identity validation, locked-revision cache invalidation, explicit Git update-target handling, and reporting unexpected owned Harness child exits while Desktop remains alive | [#193](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/193), [#200](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/200), [#206](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/206), [#213](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/213) |
+| [v0.9.5-beta.2](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.5-beta.2) | Official-leaf recovery extraction and Node runtime compatibility aligned with DSH alpha | [#215](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/215), [#231](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/231) |
 
 ### DSH Market
 
-Six authored fixes are merged and included in non-prerelease releases:
+Thirteen authored fixes are merged and explicitly credited in stable releases:
 
 | Release | Shipped work | Pull requests |
 | --- | --- | --- |
 | [v1.19.0](https://github.com/dsh-market/dsh-market/releases/tag/v1.19.0) | Complex profile-name support, masonry plugin layout, and Git-subpath preservation during updates | [#279](https://github.com/dsh-market/dsh-market/pull/279), [#280](https://github.com/dsh-market/dsh-market/pull/280), [#282](https://github.com/dsh-market/dsh-market/pull/282) |
 | [v1.36.0](https://github.com/dsh-market/dsh-market/releases/tag/v1.36.0) | Integrity-safe mirrored installs, Windows restart handling, and distinct note actions | [#392](https://github.com/dsh-market/dsh-market/pull/392), [#398](https://github.com/dsh-market/dsh-market/pull/398), [#400](https://github.com/dsh-market/dsh-market/pull/400) |
+| [v1.37.0](https://github.com/dsh-market/dsh-market/releases/tag/v1.37.0) | Bundled Desktop host diagnostics, subpath-safe note requests, accurate rollback reporting, and normalized DSH-home resolution | [#406](https://github.com/dsh-market/dsh-market/pull/406), [#407](https://github.com/dsh-market/dsh-market/pull/407), [#408](https://github.com/dsh-market/dsh-market/pull/408), [#424](https://github.com/dsh-market/dsh-market/pull/424) |
+| [v1.38.0](https://github.com/dsh-market/dsh-market/releases/tag/v1.38.0) | Real Web E2E coverage against DSH alpha, exact-composition snapshot restoration, and rollback to the previous build after failed updates | [#421](https://github.com/dsh-market/dsh-market/pull/421), [#418](https://github.com/dsh-market/dsh-market/pull/418), [#428](https://github.com/dsh-market/dsh-market/pull/428) |
 
 ### Additional shipped ecosystem work
 
@@ -64,8 +67,9 @@ Six authored fixes are merged and included in non-prerelease releases:
 The preview was:
 
 - announced in the official Harness repository's [Show Your Plugins discussion #4958](https://github.com/deepseek-ai/deepseek-harness/discussions/4958);
+- accepted into the curated ecosystem catalog through [awesome-dsh-plugin PR #3633](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3633), then updated through merged [PR #3747](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3747);
 - independently included in the [DeepSeek Harness Handbook v0.5.396](https://github.com/sandbaseai/deepseek-harness-handbook/releases/tag/v0.5.396), with its consent and preview boundaries preserved;
-- submitted to the curated plugin list in [awesome-dsh-plugin PR #3633](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3633), currently under review with both checks passing.
+- kept explicitly labeled as a preview with its open validation gates visible.
 
 Credential-backed Qwen, physical microphone and speaker, BFCache, and packaged-Desktop validation remain open in [release gate #5](https://github.com/Jstn-1g/dsh-live-voice/issues/5). No stable, marketplace-accepted, or production-ready claim is made.
 
@@ -80,6 +84,6 @@ Credential-backed Qwen, physical microphone and speaker, BFCache, and packaged-D
 
 ## Under review
 
-- **DeepSeek Harness Desktop:** [#215](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/pull/215) is open and narrowly fixes official-leaf recovery extraction. Frontend, macOS, Windows, pre-job, and CodeRabbit are green; Ubuntu is red on a documented pre-existing `ETXTBSY` shim-test flake.
-- **DSH Market:** [#406](https://github.com/dsh-market/dsh-market/pull/406), [#407](https://github.com/dsh-market/dsh-market/pull/407), and [#408](https://github.com/dsh-market/dsh-market/pull/408) are open and passing all six checks at this snapshot.
-- **Curated DSH Live Voice listing:** [awesome-dsh-plugin #3633](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3633) is open, cleanly mergeable, and passing both submission checks at this snapshot.
+- **DSH Market:** [#434](https://github.com/dsh-market/dsh-market/pull/434) makes post-update rollback source-exact. It is cleanly mergeable and all six public checks pass.
+- **DSH Tauri Plugins:** [#26](https://github.com/dsh-tauri-desk/dsh-tauri-plugins/pull/26) fails closed permanent session deletion, while [#27](https://github.com/dsh-tauri-desk/dsh-tauri-plugins/pull/27) authenticates all 29 direct plugin routes against the current DSH alpha host contract. Both are cleanly mergeable and all eight public checks pass; an exact security diff review of #27 found no reportable vulnerability.
+- **DSH TUI plugin:** [#2](https://github.com/JimLuan/dsh-tui-plugin/pull/2) hardens compatibility with DSH v0.1.2 alpha. It is cleanly mergeable and awaits upstream review and release ownership.
