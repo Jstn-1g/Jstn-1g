@@ -64,7 +64,7 @@ Agent systems · Desktop applications · Plugin architecture · Data pipelines �
 
 ## Open-source impact, with receipts
 
-**35 merged external pull requests** · **11 independently maintained DSH repositories** · **25 named stable release credits + 2 prerelease credits** · **800+ GitHub contributions**
+**35 merged external pull requests** · **11 independently maintained DSH repositories** · **26 named stable release credits + 2 prerelease credits** · **800+ GitHub contributions**
 
 | Surface | Verified outcome |
 | --- | --- |
@@ -89,4 +89,4 @@ The full [contribution ledger](CONTRIBUTIONS.md) links primary release notes, me
 
 I am open to collaborations around reliable AI products, agent infrastructure, developer experience, and evidence-first public data. Start with [Eversko](https://eversko.com), connect on [LinkedIn](https://www.linkedin.com/in/justin-skowyra/), or email [info@eversko.com](mailto:info@eversko.com).
 
-<sub>Profile facts last verified 2026-08-30. Preview and review statuses may change; the linked receipts are authoritative.</sub>
+<sub>Profile facts last verified 2026-08-31. Preview and review statuses may change; the linked receipts are authoritative.</sub>

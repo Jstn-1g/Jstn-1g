@@ -1,6 +1,6 @@
 # Verified open-source contribution record
 
-Last verified: 2026-08-30.
+Last verified: 2026-08-31.
 
 This ledger links primary evidence and uses conservative status labels:
 
@@ -14,7 +14,7 @@ This ledger links primary evidence and uses conservative status labels:
 ## Snapshot
 
 - **35 authored pull requests merged across 11 independently maintained DSH repositories:** 33 engineering patches across 10 code repositories and two accepted catalog updates.
-- **25 changes explicitly credit `@Jstn-1g` across eight stable releases, plus two credits in one prerelease.**
+- **26 changes explicitly credit `@Jstn-1g` across nine stable releases, plus two credits in one prerelease.**
 - **800+ GitHub contributions in the current profile year**, spanning commits, pull requests, issues, and reviews.
 - **DSH Live Voice** is public, independently documented, and accepted into the curated ecosystem catalog. Its current release is **v0.3.0-preview.5**; the catalog's [Preview.5 artifact and description update is under review](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3885).
 
@@ -44,7 +44,7 @@ Thirteen authored fixes are merged and explicitly credited in stable releases:
 
 ### Additional shipped ecosystem work
 
-- **DSH Tauri Plugins:** [PR #4](https://github.com/dsh-tauri-desk/dsh-tauri-plugins/pull/4) keeps external sidebars behind docked settings and is credited in [v0.4.9](https://github.com/dsh-tauri-desk/dsh-tauri-plugins/releases/tag/v0.4.9).
+- **DSH Tauri Plugins:** [PR #4](https://github.com/dsh-tauri-desk/dsh-tauri-plugins/pull/4) keeps external sidebars behind docked settings and is credited in [v0.4.9](https://github.com/dsh-tauri-desk/dsh-tauri-plugins/releases/tag/v0.4.9). [PR #27](https://github.com/dsh-tauri-desk/dsh-tauri-plugins/pull/27) authenticates all 29 direct plugin routes against the current DSH alpha host contract and is explicitly credited in [v0.6.2](https://github.com/dsh-tauri-desk/dsh-tauri-plugins/releases/tag/v0.6.2).
 - **dsh-better-edit:** [PR #30](https://github.com/Rianico/dsh-better-edit/pull/30) blocks served hash echoes from entering writes and is included in [v0.4.1](https://github.com/Rianico/dsh-better-edit/releases/tag/v0.4.1); that release body describes the fix but does not name the author.
 
 ## Other merged upstream fixes
@@ -57,7 +57,6 @@ Thirteen authored fixes are merged and explicitly credited in stable releases:
 | dsh-memory-evolve | [#26](https://github.com/csyangwen/dsh-memory-evolve/pull/26) | Synchronized review tools with the runtime toggle. |
 | dsh-plugin-subscriptions | [#31](https://github.com/V1ki/dsh-plugin-subscriptions/pull/31) | Bounded replayed Codex tool-call IDs. |
 | dsh-plugins-store | [#4](https://github.com/ZASENJC/dsh-plugins-store/pull/4) | Retained recognized plugins during pending reclassification. |
-| DSH Tauri Plugins | [#27](https://github.com/dsh-tauri-desk/dsh-tauri-plugins/pull/27) | Authenticated all 29 direct plugin routes against the current DSH alpha host contract. |
 
 ## Original systems and downstream adoption
 
