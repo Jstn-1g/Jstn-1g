@@ -18,6 +18,22 @@ Founder of [Eversko](https://github.com/eversko). I turn real failure reports in
   <a href="https://github.com/Jstn-1g/dsh-live-voice/releases/tag/v0.3.0-preview.5"><img alt="DSH Live Voice" src="https://img.shields.io/badge/DSH_Live_Voice-111827?style=for-the-badge&amp;logo=github&amp;logoColor=white"></a>
 </p>
 
+## Open-source impact, with receipts
+
+**37 merged external pull requests** · **11 independently maintained DSH repositories** · **28 named stable release credits** · **800+ GitHub contributions**
+
+| Surface | Verified outcome |
+| --- | --- |
+| **DeepSeek Harness Desktop** | Eleven authored pull requests merged. Thirteen changes are named across [v0.9.0](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.0), [v0.9.2](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.2), [v0.9.3](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.3), and [v0.10.0](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.10.0), spanning desktop UX, package discovery, plugin integrity, release validation, Git update correctness, recovery, runtime compatibility, and process-exit reporting. |
+| **DSH Market** | Thirteen authored fixes are named across [v1.19.0](https://github.com/dsh-market/dsh-market/releases/tag/v1.19.0), [v1.36.0](https://github.com/dsh-market/dsh-market/releases/tag/v1.36.0), [v1.37.0](https://github.com/dsh-market/dsh-market/releases/tag/v1.37.0), and [v1.38.0](https://github.com/dsh-market/dsh-market/releases/tag/v1.38.0). A fourteenth, source-exact rollback fix [merged in #434](https://github.com/dsh-market/dsh-market/pull/434) and awaits release. |
+| **Broader ecosystem** | Twelve additional pull requests merged across nine independent plugin and catalog repositories, covering memory, context compression, provider usage, subscriptions, Desktop extensions, host authentication, edit integrity, and DSH Live Voice discovery. Every claim is linked in the [verified contribution ledger](CONTRIBUTIONS.md). |
+
+## Engineering signature
+
+`reproduce → isolate → patch → regression-test → publish the receipt`
+
+I prefer exact source baselines, causal negative controls, deterministic tests, and status labels that distinguish **shipped**, **merged**, **adopted**, **preview**, and **under review**.
+
 ## Current work
 
 | Project | Relationship | Stack and current outcome |
@@ -56,27 +72,11 @@ Agent systems · Desktop applications · Plugin architecture · Data pipelines �
 
 [DSH Live Voice](https://github.com/Jstn-1g/dsh-live-voice) is a consent-first voice add-on for DeepSeek Harness. Preview.5 lets anyone try the one-turn experience without a Qwen credential or microphone permission: open the disclosure, run a local synthetic turn, hear the bounded chime, review both fixed transcripts, and decide whether to place the synthetic user transcript into the current draft. Nothing is submitted automatically.
 
-**Experimental Preview.5** · **30 test files / 263 tests on the immutable release commit** · **sanitized exact-alpha.2 synthetic receipt attached** · **project accepted into the curated ecosystem catalog; Preview.5 pointer under review**
+**Experimental Preview.5** · **30 test files / 263 tests on the immutable release commit** · **sanitized exact-alpha.2 synthetic receipt attached** · **Preview.5 accepted into the curated ecosystem catalog**
 
-[Preview release](https://github.com/Jstn-1g/dsh-live-voice/releases/tag/v0.3.0-preview.5) · [24-second synthetic demo](https://github.com/Jstn-1g/dsh-live-voice/blob/v0.3.0-preview.5/assets/dsh-live-voice-synthetic-demo.mp4) · [Five founding testers wanted](https://github.com/Jstn-1g/dsh-live-voice/issues/58) · [Accepted catalog listing](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3633) · [Preview.5 pointer update under review](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3885) · [Harness community launch](https://github.com/deepseek-ai/deepseek-harness/discussions/4958) · [Open safety gates](https://github.com/Jstn-1g/dsh-live-voice/issues/5)
+[Preview release](https://github.com/Jstn-1g/dsh-live-voice/releases/tag/v0.3.0-preview.5) · [24-second synthetic demo](https://github.com/Jstn-1g/dsh-live-voice/blob/v0.3.0-preview.5/assets/dsh-live-voice-synthetic-demo.mp4) · [Five founding testers wanted](https://github.com/Jstn-1g/dsh-live-voice/issues/58) · [Preview.5 catalog update](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3885) · [Harness community launch](https://github.com/deepseek-ai/deepseek-harness/discussions/4958) · [Open safety gates](https://github.com/Jstn-1g/dsh-live-voice/issues/5)
 
 > The preview label is deliberate. Preview.5 proves only its fixed local synthetic path on the authenticated localhost DSH Web carrier. Credential-backed Qwen, a live provider, physical-device validation, Preview.5 BFCache, independent reproduction, and packaged-Desktop validation remain open gates. Downloads and maintainer runs are not counted as users.
-
-## Open-source impact, with receipts
-
-**35 merged external pull requests** · **11 independently maintained DSH repositories** · **28 named stable release credits** · **800+ GitHub contributions**
-
-| Surface | Verified outcome |
-| --- | --- |
-| **DeepSeek Harness Desktop** | Eleven authored pull requests merged. Thirteen changes are named across [v0.9.0](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.0), [v0.9.2](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.2), [v0.9.3](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.9.3), and [v0.10.0](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases/tag/v0.10.0), spanning desktop UX, package discovery, plugin integrity, release validation, Git update correctness, recovery, runtime compatibility, and process-exit reporting. |
-| **DSH Market** | Thirteen authored fixes are named across [v1.19.0](https://github.com/dsh-market/dsh-market/releases/tag/v1.19.0), [v1.36.0](https://github.com/dsh-market/dsh-market/releases/tag/v1.36.0), [v1.37.0](https://github.com/dsh-market/dsh-market/releases/tag/v1.37.0), and [v1.38.0](https://github.com/dsh-market/dsh-market/releases/tag/v1.38.0): safer installs and rollback, Windows reliability, profile handling, Desktop diagnostics, subpath correctness, and real alpha Web E2E coverage. |
-| **Broader ecosystem** | Eleven additional pull requests merged across nine independent plugin and catalog repositories, covering memory, context compression, provider usage, subscriptions, Desktop extensions, host authentication, edit integrity, and DSH Live Voice discovery. Every claim is linked in the [verified contribution ledger](CONTRIBUTIONS.md). |
-
-## Engineering signature
-
-`reproduce → isolate → patch → regression-test → publish the receipt`
-
-I prefer exact source baselines, causal negative controls, deterministic tests, and status labels that distinguish **shipped**, **merged**, **adopted**, **preview**, and **under review**.
 
 <details>
 <summary><strong>Open the verified contribution record</strong></summary>

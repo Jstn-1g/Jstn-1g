@@ -13,10 +13,10 @@ This ledger links primary evidence and uses conservative status labels:
 
 ## Snapshot
 
-- **35 authored pull requests merged across 11 independently maintained DSH repositories:** 33 engineering patches across 10 code repositories and two accepted catalog updates.
+- **37 authored pull requests merged across 11 independently maintained DSH repositories:** 34 engineering patches across 10 code repositories and three accepted catalog updates.
 - **28 changes explicitly credit `@Jstn-1g` across ten stable releases.**
 - **800+ GitHub contributions in the current profile year**, spanning commits, pull requests, issues, and reviews.
-- **DSH Live Voice** is public, independently documented, and accepted into the curated ecosystem catalog. Its current release is **v0.3.0-preview.5**; the catalog's [Preview.5 artifact and description update is under review](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3885).
+- **DSH Live Voice** is public, independently documented, and accepted into the curated ecosystem catalog. Its current release is **v0.3.0-preview.5**, and the catalog now points to that exact artifact through merged [PR #3885](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3885).
 
 ## Shipped work
 
@@ -57,6 +57,7 @@ Thirteen authored fixes are merged and explicitly credited in stable releases:
 | dsh-memory-evolve | [#26](https://github.com/csyangwen/dsh-memory-evolve/pull/26) | Synchronized review tools with the runtime toggle. |
 | dsh-plugin-subscriptions | [#31](https://github.com/V1ki/dsh-plugin-subscriptions/pull/31) | Bounded replayed Codex tool-call IDs. |
 | dsh-plugins-store | [#4](https://github.com/ZASENJC/dsh-plugins-store/pull/4) | Retained recognized plugins during pending reclassification. |
+| DSH Market | [#434](https://github.com/dsh-market/dsh-market/pull/434) | Made post-update rollback source-exact; merged and awaiting a release. |
 
 ## Original systems and downstream adoption
 
@@ -67,7 +68,7 @@ Thirteen authored fixes are merged and explicitly credited in stable releases:
 The preview was:
 
 - announced in the official Harness repository's [Show Your Plugins discussion #4958](https://github.com/deepseek-ai/deepseek-harness/discussions/4958);
-- accepted into the curated ecosystem catalog through [awesome-dsh-plugin PR #3633](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3633), then updated through merged [PR #3747](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3747), with the [Preview.5 pointer and description update](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3885) under review;
+- accepted into the curated ecosystem catalog through [awesome-dsh-plugin PR #3633](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3633), then updated through merged [PR #3747](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3747) and the merged [Preview.5 pointer and description update #3885](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/3885);
 - independently included in the [DeepSeek Harness Handbook v0.5.396](https://github.com/sandbaseai/deepseek-harness-handbook/releases/tag/v0.5.396), with its consent and preview boundaries preserved;
 - kept explicitly labeled as a preview with its open validation gates visible; and
 - opened a bounded [five-person Windows Chrome/Edge founding-tester cohort](https://github.com/Jstn-1g/dsh-live-voice/issues/58) that requests sanitized stopping-point evidence rather than recordings or credentials.
@@ -85,6 +86,5 @@ Preview.5 proves only its fixed local synthetic path on the authenticated localh
 
 ## Under review
 
-- **DSH Market:** [#434](https://github.com/dsh-market/dsh-market/pull/434) makes post-update rollback source-exact. It is cleanly mergeable and all six public checks pass.
 - **DSH Tauri Plugins:** [#26](https://github.com/dsh-tauri-desk/dsh-tauri-plugins/pull/26) fails closed permanent session deletion. It is cleanly mergeable and all eight public checks pass.
 - **DSH TUI plugin:** [#2](https://github.com/JimLuan/dsh-tui-plugin/pull/2) hardens compatibility with DSH v0.1.2 alpha. It is cleanly mergeable and awaits upstream review and release ownership.
